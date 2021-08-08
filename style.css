@@ -1,0 +1,125 @@
+/* CSS HEX 
+--lavender-web: #dcd6f7ff;
+--blush: #ea638cff;
+--green-sheen: #70a9a1ff;
+--gunmetal: #30343fff;
+--eerie-black: #1b2021ff;
+*/
+
+:root {
+    --light: #dcd6f7ff; 
+    --dark: #1b2021ff;
+    --accent: #ea638cff;
+    --secondarylight: #70a9a1ff;
+    --secondarydark: #1b2021ff;
+}
+
+body{
+    background-color: var(--dark);
+    color: var(--light);
+    }
+/* Bars */
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+li {
+        float: left;
+      }
+      
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+li a:hover {
+        background-color: #111;
+      }
+ 
+/*Headers*/
+h2 {
+    text-align: center;
+}
+/*About Me Section*/
+.headshot {
+    max-height: 200px;
+    border-radius: 50%;
+}
+bio
+.smallbox {
+    column-count: 2;
+}
+/*Flex Box for Work*/
+
+
+/*Large Work Button Section*/
+.largeContainer {
+    position: relative;
+    width: 50%;
+    max-width: 800px;
+  }
+.largeContainer img {
+    width: 100%;
+    height: auto;
+  }
+  .largeContainer .largebox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .largeContainer .largebox:hover {
+    background-color: black;
+  }
+
+/*Work Buttons Small Section*/
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .smallbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .smallbox:hover {
+    background-color: black;
+  }
+
+/*Media Edit*/
+@media screen and (max-width: 600px) {
+    ul li.right, 
+    ul li {float: none;}
+  }

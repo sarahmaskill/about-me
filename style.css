@@ -7,7 +7,7 @@
 */
 
 :root {
-    --light: #dcd6f7ff; 
+    --light: white; 
     --dark: #1b2021ff;
     --accent: #ea638cff;
     --secondarylight: #70a9a1ff;
@@ -17,6 +17,7 @@
 body{
     background-color: var(--dark);
     color: var(--light);
+    font-family: Arial, Helvetica, sans-serif
     }
 /* Bars */
 ul {
@@ -44,20 +45,39 @@ li a:hover {
       }
  
 /*Headers*/
-h2 {
+h1 {
     text-align: center;
 }
-/*About Me Section*/
-.headshot {
-    max-height: 200px;
-    border-radius: 50%;
+h2 {
+    text-align: left;
+    font-size: 250%;
 }
-bio
-.smallbox {
-    column-count: 2;
+/*About Me Section*/
+#headeraboutme {
+    margin-left: 80px;
+}
+.aboutMe {
+    background-color: var(--secondarylight);
+    color: var(--dark);
+    border-radius: 25px 25px 25px 25px;
+    border: 3px solid var(--light);
+    padding: 20px;
+    min-width: 900px;
+    min-height: 600px;
+    
+}
+.headshot {
+    max-width: 600px;
+    min-width: 600px;
+    width: 50%; 
+    float: left;
+    padding: 20px;
+}
+.bio {
+    text-align: justify;
+    font-size: 150%;
 }
 /*Flex Box for Work*/
-
 
 /*Large Work Button Section*/
 .largeContainer {
@@ -68,6 +88,7 @@ bio
 .largeContainer img {
     width: 100%;
     height: auto;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   }
   .largeContainer .largebox {
     position: absolute;
@@ -97,6 +118,7 @@ bio
   .container img {
     width: 100%;
     height: auto;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   }
   
   .container .smallbox {
@@ -112,6 +134,7 @@ bio
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    
   }
   
   .container .smallbox:hover {

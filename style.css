@@ -43,29 +43,10 @@ li a {
 li a:hover {
         background-color: #111;
       }
- 
-/*Headers*/
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: left;
-    font-size: 250%;
+.aboutMe{
+  background-color: var(--secondarylight);
 }
 /*About Me Section*/
-#headeraboutme {
-    margin-left: 80px;
-}
-.aboutMe {
-    background-color: var(--secondarylight);
-    color: var(--dark);
-    border-radius: 25px 25px 25px 25px;
-    border: 3px solid var(--light);
-    padding: 20px;
-    min-width: 900px;
-    min-height: 600px;
-    
-}
 .headshot {
     max-width: 600px;
     min-width: 600px;
@@ -73,73 +54,7 @@ h2 {
     float: left;
     padding: 20px;
 }
-.bio {
-    text-align: justify;
-    font-size: 150%;
-}
 /*Flex Box for Work*/
-
-/*Large Work Button Section*/
-.largeContainer {
-    position: relative;
-    width: 50%;
-    max-width: 800px;
-  }
-.largeContainer img {
-    width: 100%;
-    height: auto;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-  }
-  .largeContainer .largebox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  .largeContainer .largebox:hover {
-    background-color: black;
-  }
-
-/*Work Buttons Small Section*/
-.container {
-    position: relative;
-    width: 50%;
-    max-width: 400px;
-  }
-  
-  .container img {
-    width: 100%;
-    height: auto;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-  }
-  
-  .container .smallbox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    
-  }
-  
-  .container .smallbox:hover {
-    background-color: black;
-  }
 
 /*Media Edit*/
 @media screen and (max-width: 600px) {
